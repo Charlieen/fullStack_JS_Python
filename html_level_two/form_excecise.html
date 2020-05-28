@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Form Excercise</title>
+  </head>
+  <body>
+    <form method="get">
+      <h1>Course Sign Up Page</h1>
+      <h3>Plase Note:First Name,Last Name,Password,and Email are required</h3>
+      <table>
+        <tr>
+          <th>
+            <label for="firstName">First Name:</label>
+            <input type="text" id="firstName" name="firstname" placeholder="First Name" required value="">
+          </th>
+          <th>
+            <label for="lasttName">Last Name:</label>
+            <input type="text" id="lastName" name="lastname" placeholder="Last Name" required value="">
+          </th>
+        </tr>
+
+        <tr>
+          <th>
+            <label for="email">Email:</label>
+            <input id="email" type="email"  name="email" placeholder="name@email.com" required value="">
+          </th>
+          <th>
+            <label for="password">Password:</label>
+            <input id="password" type="password"  name="password"  required value="">
+          </th>
+        </tr>
+      </table>
+      <p>Are you over the age of 18?</p>
+      <label for="over">Yes:</label>
+      <input id="over" type="radio" name="age" value="over18">
+      <label for="under">No:</label>
+      <input id="under" type="radio" name="age" value="under18">
+
+      <p>Do you have a Credit Card or PayPal?</p>
+      <select  name="pay">
+        <option value="1">Credit Cart</option>
+        <option value="2">PayPal</option>
+      </select>
+      <p>
+            <input type="submit" name="" value="Sign Up">
+      </p>
+
+    </form>
+
+  </body>
+</html>
