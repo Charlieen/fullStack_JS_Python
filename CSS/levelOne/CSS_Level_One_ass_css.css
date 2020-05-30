@@ -1,0 +1,45 @@
+body{
+  background-color:  #0edae8;
+}
+h1{
+  border: 2px solid;
+}
+.thank{
+  background-color: yellow;
+}
+h3{
+  color:purple;
+}
+.li1{
+  color:purple;
+  text-decoration: overline;
+}
+
+.textarea1{
+  border:3px solid gray;
+  width:800px;
+  height:400px;
+}
+input{
+  border:2px solid purple;
+}
+/*
+border-style: dashed solid ;
+border-color:yellow; */
+
+
+.feedback{
+  background-color: blue;
+  border-style:dashed;
+  border-color: yellow;
+  border-collapse:separate;
+
+}
+#text1{
+  width:600;
+  height:300;
+}
+
+.feedback p{
+  background-color:yellow;
+}

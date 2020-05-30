@@ -1,0 +1,36 @@
+body{
+  font-family: 'Anton', sans-serif;
+}
+h1{
+  text-align: center;
+}
+td{
+  background-color: black;
+  height:300px;
+  width:150px;
+  border:6px solid white;
+}
+.art{
+  margin:auto;
+}
+#r1{
+  background-color: #264653;
+  margin-right:30px;
+}
+
+#r2{
+  background-color:#2A9D8F;
+
+}
+#r3{
+  background-color:#E9C46A;
+
+}
+#r4{
+  background-color:#F4A261;
+
+}
+#r5{
+  background-color:#E76F51;
+
+}
